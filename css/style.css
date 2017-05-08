@@ -94,11 +94,31 @@ ul li{
 
 
 
-.img1, .img2, .img3{
-background-image: url("../img/hire.jpg");
-width: 100vh;
-height: 25vh;
-line-height: 25%;
+#img1{
+background-image: url("../img/grocery.jpg");
+width: 30vh;
+height: 30vh;
+cursor: pointer;
+
+}
+
+#img2{
+  background-image: url("../img/cat.jpg");
+  width: 30vh;
+  height: 30vh;
+  cursor: pointer;
+  margin-left: 20%;
+
+}
+
+#img3{
+  background-image: url("../img/revamp.jpg");
+  width: 30vh;
+  height: 30vh;
+  cursor: pointer;
+  margin-left: 20%;
+
+
 }
 
 .text1{
@@ -122,4 +142,8 @@ line-height: 25%;
 }
 .site-footer {
   background: #121842;
+}
+
+.foot{
+  color: #fff;
 }
