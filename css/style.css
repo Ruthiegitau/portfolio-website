@@ -64,3 +64,62 @@ ul li{
   font-family: sans-serif;
   margin-left: 25%;
 }
+
+/*hire.html*/
+
+.hireMe{
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../img/hire.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  background-size: cover;
+
+
+}
+
+.h1{
+  color: aqua;
+  font-family: sans-serif;
+}
+
+.text{
+  font-size: 2em;
+  font-style: oblique;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: #fff;
+  margin-top: 15%;
+  line-height: 250%;
+}
+
+
+
+.img1, .img2, .img3{
+background-image: url("../img/hire.jpg");
+width: 100vh;
+height: 25vh;
+line-height: 25%;
+}
+
+.text1{
+  color: aqua;
+  font-family: sans-serif;
+}
+
+/*footer*/
+
+.page-wrap {
+  min-height: 300%;
+  /* equal to footer height */
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.site-footer, .page-wrap:after {
+  /* .push must be the same height as footer */
+    height: 200px;
+}
+.site-footer {
+  background: #121842;
+}
