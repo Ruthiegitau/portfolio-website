@@ -58,7 +58,7 @@ ul li{
 
 .sec2 a{
   text-decoration: none;
-  color: #fff;
+  color: #c0c0c6;
   text-align: center;
   font-size: 20px;
   font-family: sans-serif;
@@ -95,7 +95,7 @@ ul li{
 
 
 #img1{
-background-image: url("../img/grocery.jpg");
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../img/grocery.jpg");
 width: 30vh;
 height: 30vh;
 cursor: pointer;
@@ -103,8 +103,8 @@ cursor: pointer;
 }
 
 #img2{
-  background-image: url("../img/cat.jpg");
-  width: 30vh;
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../img/cat.jpg");
+  width: 30%;
   height: 30vh;
   cursor: pointer;
   margin-left: 20%;
@@ -112,7 +112,7 @@ cursor: pointer;
 }
 
 #img3{
-  background-image: url("../img/revamp.jpg");
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../img/revamp.jpg");
   width: 30vh;
   height: 30vh;
   cursor: pointer;
@@ -141,9 +141,15 @@ cursor: pointer;
     height: 200px;
 }
 .site-footer {
-  background: #121842;
+  background: #101038;
 }
 
 .foot{
   color: #fff;
+}
+
+.media{
+  color: white;
+  margin-right: 35%;
+  margin-top: 10%;
 }
