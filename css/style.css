@@ -67,14 +67,18 @@ ul li{
 
 /*hire.html*/
 
+.work{
+  /*margin-top: 10%;*/
+  background-color: #dce0e5;
+  height: 70vh;
+}
+
 .hireMe{
   background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../img/hire.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   height: 100vh;
   background-size: cover;
-
-
 }
 
 .h1{
@@ -92,44 +96,21 @@ ul li{
   line-height: 250%;
 }
 
-
-
-#img1{
-  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../img/grocery.jpg");
-width: 30vh;
-height: 30vh;
-cursor: pointer;
-
-}
-
-#img2{
-  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../img/cat.jpg");
-  width: 30%;
-  height: 30vh;
-  cursor: pointer;
-  margin-left: 20%;
-
-}
-
-#img3{
-  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../img/revamp.jpg");
-  width: 30vh;
-  height: 30vh;
-  cursor: pointer;
-  margin-left: 20%;
-
-
-}
-
 .text1{
-  color: aqua;
+  color: black;
   font-family: sans-serif;
+
+}
+
+.img1 img {
+  width: 100%;
+  height: auto;
 }
 
 /*footer*/
 
 .page-wrap {
-  min-height: 300%;
+  min-height: 400%;
   /* equal to footer height */
 }
 .page-wrap:after {
@@ -152,4 +133,15 @@ cursor: pointer;
   color: white;
   margin-right: 35%;
   margin-top: 10%;
+  cursor: pointer;
+}
+
+a:hover {
+  color: aqua;
+  text-decoration: underline overline;
+}
+
+.tel{
+  font-size: 5em;
+  color: aqua;
 }
