@@ -4,10 +4,6 @@
   padding: 0%;
 }
 
-body{
-  width: 100%;
-}
-
 
 .navbar{
   background-color: black;
@@ -61,16 +57,30 @@ ul li{
   color: #c0c0c6;
   text-align: center;
   font-size: 20px;
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin-left: 25%;
 }
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
 
+.img1:hover .overlay {
+  opacity: 1;
+}
 /*hire.html*/
 
 .work{
   /*margin-top: 10%;*/
   background-color: #dce0e5;
-  height: 70vh;
 }
 
 .hireMe{
@@ -83,22 +93,22 @@ ul li{
 
 .h1{
   color: aqua;
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .text{
   font-size: 2em;
   font-style: oblique;
-  font-weight: bold;
-  font-family: sans-serif;
   color: #fff;
   margin-top: 15%;
   line-height: 250%;
+  font-family: 'Roboto', sans-serif;
+
 }
 
 .text1{
   color: black;
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
 
 }
 
@@ -109,17 +119,9 @@ ul li{
 
 /*footer*/
 
-.page-wrap {
-  min-height: 400%;
-  /* equal to footer height */
-}
-.page-wrap:after {
-  content: "";
-  display: block;
-}
-.site-footer, .page-wrap:after {
+.site-footer{
   /* .push must be the same height as footer */
-    height: 200px;
+    height: 300px;
 }
 .site-footer {
   background: #101038;
@@ -142,6 +144,5 @@ a:hover {
 }
 
 .tel{
-  font-size: 5em;
-  color: aqua;
+  color: #fff;
 }
