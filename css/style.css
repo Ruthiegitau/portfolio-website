@@ -5,13 +5,6 @@
 }
 
 
-.navbar{
-  background-color: black;
-  opacity: 0.2%;
-
-
-}
-
 ul li{
   display: inline;
   text-decoration: none;
@@ -34,11 +27,22 @@ ul li{
   height: 100vh;
   background-size: cover;
 
+
 }
 
 #sec1{
   text-align: center;
   color: #fff;
+}
+
+/*.typewriter {
+  height: 200px;
+
+}*/
+
+.wrap{
+  padding-top: 90%;
+  text-align: center;
 }
 
 .sec2{
@@ -49,7 +53,7 @@ ul li{
   border-style: solid;
   color: aqua;
   height: 10%;
-  margin-top: 25%;
+  margin-top: 30%;
 }
 
 .sec2 a{
@@ -80,18 +84,18 @@ ul li{
 .overlay {
   text-align: center;
   padding-top: 100px;
+  font-size: 4em;
+}
+
+.overlay, a{
+  color: #000;
   text-decoration: none;
-  color: black;
 }
 /*hire.html*/
 
-.work{
-  /*margin-top: 10%;*/
-  background-color: #dce0e5;
-}
 
 .hireMe{
-  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../img/hire.jpg");
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("../img/hire.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   height: 100vh;
@@ -122,34 +126,74 @@ ul li{
 .img1 img {
   width: 100%;
   height: auto;
+
+}
+
+/*technical skills*/
+#skills{
+  background-color: #dce0e5;
+  cursor: pointer;
+}
+
+#skills, h1{
+  font-family: 'Roboto', sans-serif;
+
 }
 
 /*footer*/
 
 .site-footer{
   /* .push must be the same height as footer */
-    height: 300px;
+    height: auto;
 }
 .site-footer {
   background: #101038;
 }
 
 .foot{
+  padding-top: 3%;
   color: #fff;
 }
 
 .media{
   color: white;
-  margin-right: 35%;
-  margin-top: 10%;
+  margin-right: 25%;
   cursor: pointer;
+
+}
+
+.media, ul{
+  padding-top: 5%;
 }
 
 a:hover {
-  color: aqua;
+  color: white;
   text-decoration: underline overline;
 }
 
 .tel{
   color: #fff;
+  padding-top: 5%;
+  font-family: 'Roboto', sans-serif;
+
+
+}
+
+.tel1{
+  color: #fff;
+  padding-top: 5%;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.copyright{
+  color: #fff;
+  font-size: 1em;
+  margin-top: 5%;
+}
+
+.footnote a{
+  font-size: 1.5em;
+  color: #fff;
+  text-decoration: none;
 }
